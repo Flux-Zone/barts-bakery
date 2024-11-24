@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <div className= "navbar">
         <div className= "leftSide">
-            <img src={Symbol} />
+            <img src={Symbol} alt="Logo of Bart's Bakery" />
         </div>
         <div className="rightSide">
             <Link to={"/"}> Home </Link>
